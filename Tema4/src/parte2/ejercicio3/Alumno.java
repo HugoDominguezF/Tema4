@@ -1,4 +1,4 @@
-package perte2.ejercicio3;
+package parte2.ejercicio3;
 
 public class Alumno {
 
@@ -7,8 +7,15 @@ public class Alumno {
 
 	public Alumno(String nombre, double media) {
 
-		this.nombre = nombre;
+		
+		if(nombre != null && !nombre.isBlank()) {
+			this.nombre = nombre;
+		}
+		
+		
+		if(media <= 10 && media >= 0) {
 		this.media = media;
+		}
 
 	}
 	

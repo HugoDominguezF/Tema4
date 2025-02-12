@@ -1,4 +1,4 @@
-package perte2.ejercicio3;
+package parte2.ejercicio3;
 
 import java.util.Scanner;
 
@@ -37,18 +37,11 @@ public class MainAlumno {
 			
 			}
 			
-			
-			
-			
-			
 			System.out.println("1)ToString");
 			System.out.println("2)Equals");
 			System.out.println("3)Salir");
 			respuesta = sc.nextInt();
 		}
-		
-		
-		
 
 	}
 
