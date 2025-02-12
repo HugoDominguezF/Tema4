@@ -4,23 +4,33 @@ public class MainRectangulo {
 
 	public static void main(String[] args) {
 		
-		Rectangulo a = new Rectangulo();
+
 		
-		Rectangulo b = new Rectangulo();
+		
+		
+		int x1;
+		int y1;
+		int x2;
+		int y2;
+		
 		
 		int ladoX;
 		
 		int ladoY;
 		
-		a.x1 = 0;
-		a.x2 = 5;
-		a.y1 = 0;
-		a.y2 = 5;
+		x1 = 0;
+		x2 = 5;
+		y1 = 0;
+		y2 = 5;
 		
-		b.x1 = 7;
-		b.x2 = 2;
-		b.y1 = 9;
-		b.y2 = 3;
+		Rectangulo a = new Rectangulo(x1,y1,x2,y2);
+		
+		x1 = 7;
+		x2 = 2;
+		y1 = 9;
+		y2 = 3;
+		
+		Rectangulo b = new Rectangulo(x1,y1,x2,y2);
 		
 		ladoX = (a.x1-a.x2);
 		ladoX = Math.abs(ladoX);
